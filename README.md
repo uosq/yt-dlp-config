@@ -1,7 +1,7 @@
 Assim, é feito pra mim então pra vc pode ser diferente o jeito que faz as coisas
 
 ```bash
-#!/bin/bash
+#!/bin/zsh
 touch download-video
 
 otexto='#!/bin/bash
