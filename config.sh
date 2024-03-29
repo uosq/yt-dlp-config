@@ -13,4 +13,3 @@ fi'
 echo "$otexto" > download-video
 chmod +x download-video
 echo "alias yt='bash ~/download-video'" >> ~/.zshrc
-echo "Recomendo zsh pra isso!"
