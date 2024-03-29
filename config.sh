@@ -1,7 +1,7 @@
 #!/bin/zsh
 touch download-video
 
-otexto='#!/bin/bash
+otexto='#!/bin/zsh
 if [[ $1 == 'br' ]]; then
     yt-dlp --write-subs --sub-lang "pt.*" -o "%(title)s.%(ext)s" $2
 elif [[ $1 == 'en' ]]; then
@@ -13,3 +13,4 @@ fi'
 echo "$otexto" > download-video
 chmod +x download-video
 echo "alias yt='bash ~/download-video'" >> ~/.zshrc
+echo "Recomendo zsh pra isso!"
